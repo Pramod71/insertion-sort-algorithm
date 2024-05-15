@@ -1,0 +1,14 @@
+Insertion sort
+
+Step0:start
+Step1:Declare an array of size, n.
+Step2:Provide the n inputs such that the array (named arr) is unsorted.
+Step3:Run a loop, with i from 0 to n-1
+Step4:Assign arr[i] as key and i-1 as j
+Step5:While j >= 0 and arr[j+1] > arr[j] is True
+      arr[j+1] = arr[j]
+      Increment j = j + 1
+Step6:Assign key at a[j+1]
+Step7:Stop
+
+
